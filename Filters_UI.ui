@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:  #E1E2E1;
+border-left:70px solid #01579b;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="originalImg">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>290</y>
+      <width>400</width>
+      <height>400</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+                                    border-top: 1px solid #ddd;
+                                    border-bottom: 1px solid #ddd;
+                                    border-left: 1px solid #ddd;
+                                    border-right: 1px solid #ddd;
+                                    color: rgb(0, 8, 132);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="filteredImage">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>290</y>
+      <width>400</width>
+      <height>400</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+                                    border-top: 1px solid #ddd;
+                                    border-bottom: 1px solid #ddd;
+                                    border-left: 1px solid #ddd;
+                                    border-right: 1px solid #ddd;
+                                    color: rgb(0, 8, 132);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openImgButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>30</y>
+      <width>250</width>
+      <height>240</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+                                    border-top: 1px solid #ddd;
+                                    border-bottom: 1px solid #ddd;
+                                    border-left: 1px solid #ddd;
+                                    border-right: 1px solid #ddd;
+                                    color: rgb(0, 8, 132);</string>
+    </property>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>DejaVu Serif</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>DejaVu Serif</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Kernel Size</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>130</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>DejaVu Serif</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

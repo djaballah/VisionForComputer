@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Vision Project</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(250, 250, 250);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>29</y>
+      <width>291</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(120, 144, 156);
+</string>
+    </property>
+    <widget class="QPushButton" name="filter_window_button">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>210</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(13, 71, 161);
+color: rgb(238, 238, 238);
+border: none;</string>
+     </property>
+     <property name="text">
+      <string>Filters</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="lbp_window_button">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>350</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(13, 71, 161);
+color: rgb(238, 238, 238);
+border: none;
+</string>
+     </property>
+     <property name="text">
+      <string>LBP Comparaison</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="detection_window_buton">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>280</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(13, 71, 161);
+color: rgb(238, 238, 238);
+border: none;
+</string>
+     </property>
+     <property name="text">
+      <string>Object Tracking</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>70</y>
+       <width>211</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>DejaVu Serif</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(225, 225, 225);</string>
+     </property>
+     <property name="text">
+      <string>Vision Project</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

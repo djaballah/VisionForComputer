@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>LBP Comparaison</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:  #E1E2E1;
+border-left:70px solid #01579b;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="img_1">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>30</y>
+      <width>300</width>
+      <height>280</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbp_img_1">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>30</y>
+      <width>300</width>
+      <height>280</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hist_lbp_img_1">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>30</y>
+      <width>300</width>
+      <height>280</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="img_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>400</y>
+      <width>300</width>
+      <height>280</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbp_img_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>400</y>
+      <width>300</width>
+      <height>280</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hist_lbp_img_2">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>400</y>
+      <width>300</width>
+      <height>280</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="img_1_btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="img_2_btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>400</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="compare_widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>320</y>
+      <width>301</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-top: 1px solid #bbb;
+border-bottom: 1px solid #bbb;
+border-left: 1px solid #bbb;
+border-right: 1px solid #bbb;</string>
+    </property>
+    <widget class="QLabel" name="chi_square_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>161</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>DejaVu Serif</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Chi-Square: </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="simlar_label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>35</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>DejaVu Serif</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Similaire Images</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
